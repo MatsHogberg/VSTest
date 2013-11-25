@@ -13,7 +13,7 @@ namespace MvcApplication1.Controllers
 
         public ActionResult Index()
         {
-            var i = 0;
+            var i = 10;
             return View("/Views/Render/View1.aspx");
         }
 
